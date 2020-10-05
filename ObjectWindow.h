@@ -13,7 +13,7 @@
 #include "AddConst.h"
 #include "AddAxis.h"
 #include "AddElement.h"
-#include "deletenumbers.h"
+#include "createnewobwindow.h"
 #include "table_view.h"
 #include <cmath>
 #include "CutView.h"

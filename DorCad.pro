@@ -31,7 +31,6 @@ SOURCES += \
     dormath.cpp \
     main.cpp \
     mainwindow.cpp \
-    objectwindowform.cpp \
     roadcadast.cpp \
     table_view.cpp
 
@@ -54,7 +53,6 @@ HEADERS += \
     dorcad_tests.h \
     dormath.h \
     mainwindow.h \
-    objectwindowform.h \
     searchfonumberslist.h \
     table_view.h
 
@@ -66,7 +64,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 SUBDIRS += \
     ../../../mnt/qt_pr/DORCAD/DORCAD.pro
 
-FORMS +=
+FORMS += \
+    mainwindow.ui \
+    objectwindowform.ui
 
 DISTFILES += \
     ../../../mnt/qt_pr/DORCAD/DORCAD.pro.user \

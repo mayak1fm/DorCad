@@ -5,11 +5,8 @@
 #include <QMenu>
 #include <QAction>
 #include "ui_mainwindow.h"
-#include "createnewobwindow.h"
 #include "ObjectWindow.h"
 #include "ProjectBase.h"
-#include "unitedxml.h"
-#include "deletenumbers.h"
 #include "XmlLoader.h"
 #include <QFileDialog>
 
