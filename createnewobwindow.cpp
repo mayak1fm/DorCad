@@ -1,4 +1,4 @@
-#include "createnewobwindow.h"
+#include "CreateNewObWindow.h"
 CreateNewObWindow::CreateNewObWindow(QWidget*pwgt) : QDialog(pwgt)
 {
    LayForm = new QFormLayout;
