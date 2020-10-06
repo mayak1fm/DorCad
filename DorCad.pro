@@ -15,6 +15,7 @@ SOURCES += \
     AddAxis.cpp \
     AddConst.cpp \
     AddElement.cpp \
+    CreateNewObWindow.cpp \
     CutChoise.cpp \
     CutView.cpp \
     Element.cpp \
@@ -26,7 +27,6 @@ SOURCES += \
     UnitBase.cpp \
     XmlLoader.cpp \
     XmlSaver.cpp \
-    createnewobwindow.cpp \
     dorcad_tests.cpp \
     dormath.cpp \
     main.cpp \
@@ -38,6 +38,7 @@ HEADERS += \
     AddAxis.h \
     AddConst.h \
     AddElement.h \
+    CreateNewObWindow.h \
     CutChoise.h \
     CutView.h \
     Element.h \
@@ -49,11 +50,9 @@ HEADERS += \
     UnitBase.h \
     XmlLoader.h \
     XmlSaver.h \
-    createnewobwindow.h \
     dorcad_tests.h \
     dormath.h \
     mainwindow.h \
-    searchfonumberslist.h \
     table_view.h
 
 # Default rules for deployment.
